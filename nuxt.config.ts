@@ -2,7 +2,6 @@ import { defineNuxtConfig } from "nuxt3";
 
 export default defineNuxtConfig({
     buildModules: [
-        // pinia plugin - https://pinia.esm.dev
         "@pinia/nuxt",
     ],
     build: {
@@ -19,7 +18,7 @@ export default defineNuxtConfig({
         logLevel: "info",
         optimizeDeps: {
             include: [
-                '@headlessui/vue', '@heroicons/vue/solid', '@heroicons/vue/outline', 'vue', 'pinia'
+                '@headlessui/vue', 'vue', 'pinia', '@heroicons/vue/solid', '@heroicons/vue/outline',
             ]
         }
     }

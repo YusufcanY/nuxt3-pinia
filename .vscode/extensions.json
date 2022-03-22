@@ -1,6 +1,8 @@
 {
-    "recommendations": [
-        "johnsoncodehk.volar",
-        "bradlc.vscode-tailwindcss"
-    ]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "johnsoncodehk.volar",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind"
+  ]
 }
