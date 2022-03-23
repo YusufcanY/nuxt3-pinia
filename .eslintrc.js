@@ -14,7 +14,10 @@ module.exports = {
     '@nuxtjs',
     'prettier',
   ],
-
+  globals: {
+    computed: 'readonly',
+    useState: 'readonly',
+  },
   plugins: ['json', 'prettier', 'nuxt'],
 
   rules: {
