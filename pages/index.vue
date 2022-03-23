@@ -6,7 +6,6 @@
   import { useCounterStore } from '~/store/counter'
   const counterStore = useCounterStore()
   const { increment, decrement } = counterStore
-  // eslint-disable-next-line no-undef
   const counter = computed(() => counterStore.counter)
 </script>
 <template>
