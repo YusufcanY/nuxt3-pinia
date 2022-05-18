@@ -13,11 +13,8 @@ module.exports = {
     'plugin:nuxt/recommended',
     '@nuxtjs',
     'prettier',
+    './.nuxt/.eslintrc.js',
   ],
-  globals: {
-    computed: 'readonly',
-    useState: 'readonly',
-  },
   plugins: ['json', 'prettier', 'nuxt'],
 
   rules: {
