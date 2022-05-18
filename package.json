@@ -25,7 +25,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^7.0.4",
-    "nuxt3": "3.0.0-27465767.70f067a",
+    "nuxt": "^3.0.0-rc.3",
     "postcss": "8.4.12",
     "prettier": "^2.6.0",
     "sass": "1.49.9",
@@ -35,12 +35,12 @@
   "dependencies": {
     "@headlessui/vue": "1.5.0",
     "@heroicons/vue": "1.0.6",
-    "@pinia/nuxt": "0.1.8",
+    "@pinia/nuxt": "0.1.9",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@tailwindcss/line-clamp": "0.3.1",
     "@tailwindcss/typography": "0.5.2",
     "axios": "^0.26.1",
-    "pinia": "2.0.12"
+    "pinia": "2.0.14"
   },
   "engines": {
     "node": "^14.16.0 || ^16.11.0 || ^17.0.0"
