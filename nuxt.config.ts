@@ -13,6 +13,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  typescript: {
+    shim: false,
+    strict: true,
+  },
   vite: {
     logLevel: 'info',
     optimizeDeps: {
