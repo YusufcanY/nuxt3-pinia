@@ -4,9 +4,11 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    'vue/setup-compiler-macros': true,
   },
 
   extends: [
+    'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
     'eslint:recommended',
     'plugin:json/recommended',
@@ -15,8 +17,12 @@ module.exports = {
     'prettier',
     './.nuxt/.eslintrc.js',
   ],
-  plugins: ['json', 'prettier', 'nuxt'],
-
+  plugins: ['json', 'prettier', 'nuxt', '@typescript-eslint'],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    parser: '@typescript-eslint/parser',
+  },
   rules: {
     'prettier/prettier': 'warn',
     'sort-imports': [
