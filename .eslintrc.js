@@ -15,7 +15,7 @@ module.exports = {
     'plugin:nuxt/recommended',
     '@nuxtjs',
     'prettier',
-    './.nuxt/.eslintrc.js',
+    './.nuxt/.eslintrc.json',
   ],
   plugins: ['json', 'prettier', 'nuxt', '@typescript-eslint'],
   parserOptions: {
