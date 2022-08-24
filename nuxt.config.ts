@@ -1,9 +1,10 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-  buildModules: ['@pinia/nuxt', './modules/auto-import-eslint'],
+  modules: ['@pinia/nuxt', './modules/auto-import-eslint'],
   css: ['@/assets/css/main.css', '@/assets/css/tailwind.css'],
   build: {
+    transpile: ['@heroicons/vue'],
     postcss: {
       postcssOptions: {
         plugins: {
