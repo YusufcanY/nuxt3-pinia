@@ -1,8 +1,12 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt', './modules/auto-import-eslint'],
-  css: ['@/assets/css/main.css', '@/assets/css/tailwind.css'],
+  modules: [
+    '@pinia/nuxt',
+    './modules/auto-import-eslint',
+    '@nuxtjs/tailwindcss',
+  ],
+  css: ['@/assets/css/main.css'],
   build: {
     transpile: ['@heroicons/vue'],
     postcss: {
