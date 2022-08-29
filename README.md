@@ -18,3 +18,5 @@ If you want to delete unnecessary packages for you or your project, you can dele
   - Before push, husky stopping you if you didnt format something in the project. Then you can run `yarn format` but there is a one problem. After you run `yarn format` , its formatting files then you can push without last formatted changes because the pre push hook is not checking commit changes its checking current file statuses.
 
 If you have any solution to problems on above or have another problem, you can open an issue or direct message me from any social media. 
+
+> Additional Info: I'm using this repo for my own projects usually. If you find an improvement for the repo please let me know.
